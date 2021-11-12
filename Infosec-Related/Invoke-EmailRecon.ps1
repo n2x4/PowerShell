@@ -307,6 +307,7 @@ begin {
             'inbound-smtp.*.amazonaws.com' { $determination = "Amazon SES" }
             'aspmx*google.com' { $determination = "Google" }
             'au*mimecast*' { $determination = "Mimecast (AU)" }
+	    'us*mimecast*' { $determination = "Mimecast (US)" }
             '*barracudanetworks.com' { $determination = "Barracuda ESS" }
             '*fireeyecloud.com' { $determination = "FireEye Email Security Cloud" }
             '*.eo.outlook.com' { $determination = "Microsoft Exchange Online" }
